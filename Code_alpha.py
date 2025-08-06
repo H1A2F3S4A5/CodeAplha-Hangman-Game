@@ -1,25 +1,3 @@
-# import random
-# list=["apple","banana","grapes","strawberry","mango"]
-
-# selection = random.choice(list)
-# print("Welcome  to the Hangman!.")
-
-# i=1
-# while(i<6):
-    
-#     name=input("enter the name of fruit that  you like").lower()
-#     if name == selection:
-#         print("You have enetered the right  name")
-#         break
-#     else:
-#         print("Try another guess")
-#         print("Attempts leftt : {6-i}")
-#         i+=1
-
-#     if(i==5):
-#         print("Game over ! the correct  fruit was",selection)
-
-
 import random
 
 # 🔸 List of strings (fruits)
@@ -47,4 +25,5 @@ while attempts < 6:
         print(f"Attempts left: {6 - attempts}")  # f-string
 
     if attempts == 6:
-        print("💀 Game Over! The correct fruit was:", selection)
+        print(" Game Over! The correct fruit was:", selection)
+
